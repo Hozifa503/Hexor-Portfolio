@@ -10,7 +10,7 @@
 }
 
 header {
-    background-color: black;
+    background-color: #1A0808;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -25,4 +25,16 @@ header {
     height: 60px;
     object-fit: contain:
 
+}
+
+.navigation a{
+    color: lightcoral;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px; 
+}
+
+.navigation a:hover{
+    color: darkred;
 }
