@@ -150,7 +150,7 @@ section {
     content:"";
     background-color: black;
     position: absolute;
-    width: calc(50% + 3px);
+    width: calc(15% + 2px);
     height: 100%;
     border-left: 3px solid black;
     right: -8;
@@ -182,13 +182,13 @@ section {
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
     .main{
         gap: 4rem;
     }
 }
 
-@media(max-width:795px){
+@media(max-width:995px){
     .main{
         flex-direction: column;
         margin: 5rem, 4rem;
