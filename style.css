@@ -13,7 +13,7 @@ header {
     margin-top: 20px;
     top: 0;
     left: 0;
-    background-color: transparent;
+    background-color: black;
     width: 100%;
     filter: drop-shadow(10px);
     position: fixed;
@@ -67,7 +67,7 @@ section {
     align-items: center;
     background: url(images/background.png) no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left center;
 }
 
 .main h2{
@@ -188,10 +188,13 @@ section {
     }
 }
 
-@media(max-width:995px){
-    .main{
+@media (max-width: 995px) {
+    .main {
         flex-direction: column;
-        margin: 5rem, 4rem;
+        margin: 0;
+        padding: 100px 30px;
+        background-size: auto 100%;
+        background-position: left center;
     }
 }
 
